@@ -39,5 +39,6 @@ export async function getStaticProps() {
     props: {
       filteredPosts,
     },
+    revalidate: 3,
   };
 }
